@@ -1112,7 +1112,7 @@
   (symbol (lib_id "Device:R_US") (at 134.62 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 029b1b24-5cca-4034-8ac9-c727d36dce20)
-    (property "Reference" "R3" (at 138.43 109.855 0)
+    (property "Reference" "R131" (at 138.43 109.855 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "105" (at 137.795 111.6442 0)
@@ -1129,7 +1129,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "R3") (unit 1)
+          (reference "R131") (unit 1)
         )
       )
       (project "AnalogTestBoard2"
@@ -1184,7 +1184,7 @@
   (symbol (lib_id "power:GNDREF") (at 198.12 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cc30cf8-272e-41b5-b7ba-ea793d68abc8)
-    (property "Reference" "#PWR023" (at 198.12 72.39 0)
+    (property "Reference" "#PWR0198" (at 198.12 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 198.12 70.1731 0)
@@ -1200,7 +1200,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR0198") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1245,7 +1245,7 @@
   (symbol (lib_id "Device:C") (at 168.91 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14190976-8245-42a4-8eaa-42d8721b03e4)
-    (property "Reference" "C11" (at 168.91 110.7186 0)
+    (property "Reference" "C85" (at 168.91 110.7186 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7uF" (at 168.91 113.03 0)
@@ -1262,7 +1262,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C11") (unit 1)
+          (reference "C85") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1282,7 +1282,7 @@
   (symbol (lib_id "Device:R_US") (at 113.03 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d10f655-dea1-4b50-a2fb-a30119609876)
-    (property "Reference" "R1" (at 115.57 60.96 0)
+    (property "Reference" "R129" (at 115.57 60.96 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 115.57 63.5 0)
@@ -1299,7 +1299,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "R1") (unit 1)
+          (reference "R129") (unit 1)
         )
       )
       (project "AnalogTestBoard2"
@@ -1324,7 +1324,7 @@
   (symbol (lib_id "power:-12V") (at 109.22 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25482f47-9c25-4ff6-84f0-2a523d2abb43)
-    (property "Reference" "#PWR014" (at 109.22 161.29 0)
+    (property "Reference" "#PWR0189" (at 109.22 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 108.839 163.1442 0)
@@ -1340,7 +1340,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR0189") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1360,7 +1360,7 @@
   (symbol (lib_id "power:GNDD") (at 116.205 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d8cd0af-d189-405c-afc8-cf83811c04da)
-    (property "Reference" "#PWR015" (at 116.205 125.73 0)
+    (property "Reference" "#PWR0190" (at 116.205 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 116.205 123.1321 0)
@@ -1376,7 +1376,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR0190") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1393,7 +1393,7 @@
   (symbol (lib_id "Device:C") (at 115.57 154.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dc63361-4527-456f-898c-077a7fd42e39)
-    (property "Reference" "C4" (at 121.9708 154.94 90)
+    (property "Reference" "C78" (at 121.9708 154.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470nF" (at 119.6594 154.94 90)
@@ -1410,7 +1410,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C4") (unit 1)
+          (reference "C78") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1430,7 +1430,7 @@
   (symbol (lib_id "power:+12V") (at 109.22 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30142dbf-411d-4f2b-adbb-2e80990a7f0f)
-    (property "Reference" "#PWR013" (at 109.22 147.32 0)
+    (property "Reference" "#PWR0188" (at 109.22 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 109.601 139.1158 0)
@@ -1446,7 +1446,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0188") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1496,7 +1496,7 @@
   (symbol (lib_id "Device:C") (at 198.12 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a150aa5-33ab-40fb-b82f-3d603cb5b849)
-    (property "Reference" "C13" (at 198.12 110.49 0)
+    (property "Reference" "C87" (at 198.12 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470nF" (at 198.12 112.8014 0)
@@ -1513,7 +1513,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C13") (unit 1)
+          (reference "C87") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1533,7 +1533,7 @@
   (symbol (lib_id "Device:C") (at 109.22 154.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b22a4d5-80f6-4015-95d7-2dbbe65b0508)
-    (property "Reference" "C2" (at 115.6208 154.94 90)
+    (property "Reference" "C76" (at 115.6208 154.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7uF" (at 113.3094 154.94 90)
@@ -1550,7 +1550,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C2") (unit 1)
+          (reference "C76") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1570,7 +1570,7 @@
   (symbol (lib_id "power:+12V") (at 198.12 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45028559-d61a-41a2-8556-2a8eb49d6cd2)
-    (property "Reference" "#PWR022" (at 198.12 59.69 0)
+    (property "Reference" "#PWR0197" (at 198.12 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 198.501 51.4858 0)
@@ -1586,7 +1586,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR0197") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1636,7 +1636,7 @@
   (symbol (lib_id "power:+5V") (at 157.48 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e088d33-ce5a-4c24-90db-38ed7d13ac68)
-    (property "Reference" "#PWR017" (at 157.48 110.49 0)
+    (property "Reference" "#PWR0192" (at 157.48 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 157.48 102.5469 0)
@@ -1652,7 +1652,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR0192") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1669,7 +1669,7 @@
   (symbol (lib_id "power:+3V3") (at 201.295 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5019d489-1e9b-40eb-a376-e13e5ceda61a)
-    (property "Reference" "#PWR025" (at 201.295 110.49 0)
+    (property "Reference" "#PWR0200" (at 201.295 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 201.676 102.2858 0)
@@ -1685,7 +1685,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR0200") (unit 1)
         )
       )
       (project "RP2040_minimal"
@@ -1737,7 +1737,7 @@
   (symbol (lib_id "power:-12V") (at 199.39 78.74 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7307838c-1bda-4a1f-846b-e893d0d838d2)
-    (property "Reference" "#PWR024" (at 199.39 81.28 0)
+    (property "Reference" "#PWR0199" (at 199.39 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 199.009 83.1342 0)
@@ -1753,7 +1753,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR0199") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1773,7 +1773,7 @@
   (symbol (lib_id "power:-12V") (at 95.25 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 731c2b6c-e68a-4809-a0b4-20dbd08994eb)
-    (property "Reference" "#PWR010" (at 95.25 76.2 0)
+    (property "Reference" "#PWR0185" (at 95.25 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 94.869 78.0542 0)
@@ -1789,7 +1789,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR0185") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1809,7 +1809,7 @@
   (symbol (lib_id "Regulator_Switching:TPS560200") (at 116.205 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77396c3d-9446-47a8-90d9-07721b9e0788)
-    (property "Reference" "U1" (at 116.205 101.2657 0)
+    (property "Reference" "U20" (at 116.205 101.2657 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS560200" (at 116.205 103.6899 0)
@@ -1829,7 +1829,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "U1") (unit 1)
+          (reference "U20") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1843,7 +1843,7 @@
   (symbol (lib_id "power:GNDD") (at 191.135 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f238c68-378f-429e-88b7-6a53ffefb21b)
-    (property "Reference" "#PWR021" (at 191.135 120.65 0)
+    (property "Reference" "#PWR0196" (at 191.135 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 191.135 118.0521 0)
@@ -1859,7 +1859,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR0196") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1876,7 +1876,7 @@
   (symbol (lib_id "Device:R_US") (at 113.03 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8266a6ef-157d-447b-8c2b-895db97cce22)
-    (property "Reference" "R2" (at 115.57 68.58 0)
+    (property "Reference" "R130" (at 115.57 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 115.57 71.12 0)
@@ -1893,7 +1893,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "R2") (unit 1)
+          (reference "R130") (unit 1)
         )
       )
       (project "AnalogTestBoard2"
@@ -1918,7 +1918,7 @@
   (symbol (lib_id "Device:C") (at 121.92 154.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82dda667-3a58-4027-9bf6-18da224dc8a4)
-    (property "Reference" "C6" (at 128.3208 154.94 90)
+    (property "Reference" "C80" (at 128.3208 154.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47nF" (at 126.0094 154.94 90)
@@ -1935,7 +1935,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C6") (unit 1)
+          (reference "C80") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1955,7 +1955,7 @@
   (symbol (lib_id "power:GNDD") (at 134.62 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83dd7153-8533-47be-9c9e-3d3555e04439)
-    (property "Reference" "#PWR016" (at 134.62 128.27 0)
+    (property "Reference" "#PWR0191" (at 134.62 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 134.62 125.6721 0)
@@ -1971,7 +1971,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR0191") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1988,7 +1988,7 @@
   (symbol (lib_id "power:+12V") (at 95.25 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a73768b-3b14-44b9-bff4-a5bb2a56304b)
-    (property "Reference" "#PWR09" (at 95.25 62.23 0)
+    (property "Reference" "#PWR0184" (at 95.25 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 95.631 54.0258 0)
@@ -2004,7 +2004,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0184") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2024,7 +2024,7 @@
   (symbol (lib_id "power:+12V") (at 100.965 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8eeb5ff1-8d95-4a19-86a7-93f99e117d7e)
-    (property "Reference" "#PWR011" (at 100.965 110.49 0)
+    (property "Reference" "#PWR0186" (at 100.965 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 101.346 102.2858 0)
@@ -2040,7 +2040,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR0186") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2060,7 +2060,7 @@
   (symbol (lib_id "power:GNDD") (at 168.91 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1590479-f2c6-4fae-867f-e3d42198a4e2)
-    (property "Reference" "#PWR019" (at 168.91 120.65 0)
+    (property "Reference" "#PWR0194" (at 168.91 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 168.91 118.0521 0)
@@ -2076,7 +2076,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR0194") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2093,7 +2093,7 @@
   (symbol (lib_id "power:GNDREF") (at 105.41 151.13 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a89350f1-5738-43e4-8b3b-ca937ce3a7c2)
-    (property "Reference" "#PWR012" (at 99.06 151.13 0)
+    (property "Reference" "#PWR0187" (at 99.06 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 101.0158 151.257 0)
@@ -2109,7 +2109,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR0187") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2129,7 +2129,7 @@
   (symbol (lib_id "Device:C") (at 121.92 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae313dec-eb0d-4e90-9816-ba8476e60699)
-    (property "Reference" "C5" (at 128.3208 147.32 90)
+    (property "Reference" "C79" (at 128.3208 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47nF" (at 126.0094 147.32 90)
@@ -2146,7 +2146,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C5") (unit 1)
+          (reference "C79") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2166,7 +2166,7 @@
   (symbol (lib_id "Device:C") (at 151.13 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af57bd59-7b69-4e4f-b663-338dae53fff5)
-    (property "Reference" "C8" (at 151.13 110.49 0)
+    (property "Reference" "C82" (at 151.13 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470nF" (at 151.13 112.8014 0)
@@ -2183,7 +2183,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C8") (unit 1)
+          (reference "C82") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2203,7 +2203,7 @@
   (symbol (lib_id "power:GNDD") (at 179.07 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5313fbd-508f-47a2-88a0-db575fac3314)
-    (property "Reference" "#PWR020" (at 179.07 120.65 0)
+    (property "Reference" "#PWR0195" (at 179.07 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 179.07 118.0521 0)
@@ -2219,7 +2219,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR0195") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2236,7 +2236,7 @@
   (symbol (lib_id "Device:C") (at 163.83 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b81f5983-1b87-4085-9e4c-6693c217504c)
-    (property "Reference" "C10" (at 163.83 110.49 0)
+    (property "Reference" "C84" (at 163.83 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470nF" (at 163.83 112.8014 0)
@@ -2253,7 +2253,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C10") (unit 1)
+          (reference "C84") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2303,7 +2303,7 @@
   (symbol (lib_id "BUF634AIDDAR:BUF634AIDDAR") (at 148.59 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c34eac0e-345b-440c-bac2-82f24ea2c2bc)
-    (property "Reference" "U2" (at 165.2572 62.5658 0)
+    (property "Reference" "U21" (at 165.2572 62.5658 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BUF634AIDDAR" (at 165.2572 64.99 0)
@@ -2345,7 +2345,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "U2") (unit 1)
+          (reference "U21") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2359,7 +2359,7 @@
   (symbol (lib_id "Device:R_US") (at 134.62 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d202cb56-7b00-4b5e-b826-c659bd1b847c)
-    (property "Reference" "R4" (at 138.43 117.475 0)
+    (property "Reference" "R132" (at 138.43 117.475 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20k" (at 137.795 119.38 0)
@@ -2376,7 +2376,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "R4") (unit 1)
+          (reference "R132") (unit 1)
         )
       )
       (project "AnalogTestBoard2"
@@ -2401,7 +2401,7 @@
   (symbol (lib_id "Regulator_Linear:LM1117MP-3.3") (at 179.07 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2088655-0b89-4483-85b9-00630b12b921)
-    (property "Reference" "U3" (at 179.07 100.6307 0)
+    (property "Reference" "U22" (at 179.07 100.6307 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM1117MP-3.3" (at 179.07 103.0549 0)
@@ -2419,7 +2419,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "U3") (unit 1)
+          (reference "U22") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2433,7 +2433,7 @@
   (symbol (lib_id "Device:C") (at 115.57 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd2e0f24-cbe9-4322-b8e4-43b3bbf6fecc)
-    (property "Reference" "C3" (at 121.9708 147.32 90)
+    (property "Reference" "C77" (at 121.9708 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470nF" (at 119.6594 147.32 90)
@@ -2450,7 +2450,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C3") (unit 1)
+          (reference "C77") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2470,7 +2470,7 @@
   (symbol (lib_id "Device:C") (at 109.22 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dff7d453-e84c-4fd9-a955-d117e7b3ddd4)
-    (property "Reference" "C1" (at 115.6208 147.32 90)
+    (property "Reference" "C75" (at 115.6208 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7uF" (at 113.3094 147.32 90)
@@ -2487,7 +2487,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C1") (unit 1)
+          (reference "C75") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2538,7 +2538,7 @@
   (symbol (lib_id "Device:C") (at 191.135 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3882401-3ab4-45be-9fe8-c685232fb47c)
-    (property "Reference" "C12" (at 191.135 110.7186 0)
+    (property "Reference" "C86" (at 191.135 110.7186 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7uF" (at 191.135 113.03 0)
@@ -2555,7 +2555,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C12") (unit 1)
+          (reference "C86") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2575,7 +2575,7 @@
   (symbol (lib_id "Device:C") (at 144.78 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8a1876e-8789-41af-a448-6b81a1219374)
-    (property "Reference" "C7" (at 144.78 110.7186 0)
+    (property "Reference" "C81" (at 144.78 110.7186 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7uF" (at 144.78 113.03 0)
@@ -2592,7 +2592,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C7") (unit 1)
+          (reference "C81") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2612,7 +2612,7 @@
   (symbol (lib_id "power:GNDD") (at 157.48 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8d2b955-7260-448e-bc04-771b6c68ea39)
-    (property "Reference" "#PWR018" (at 157.48 120.65 0)
+    (property "Reference" "#PWR0193" (at 157.48 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 157.48 118.0521 0)
@@ -2628,7 +2628,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR0193") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2645,7 +2645,7 @@
   (symbol (lib_id "Device:C") (at 157.48 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe597e09-2413-44f6-a86a-5772ef5b9506)
-    (property "Reference" "C9" (at 156.845 110.49 0)
+    (property "Reference" "C83" (at 156.845 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47nF" (at 156.845 112.8014 0)
@@ -2662,7 +2662,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/4045fe6a-5794-4d85-b20b-22f95473a0e4"
-          (reference "C9") (unit 1)
+          (reference "C83") (unit 1)
         )
       )
       (project "SynthProj"

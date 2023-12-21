@@ -1938,7 +1938,7 @@
   (symbol (lib_id "power:+12V") (at 48.26 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01086eb3-689a-4c55-837d-f78de4300f40)
-    (property "Reference" "#PWR0295" (at 48.26 115.57 0)
+    (property "Reference" "#PWR072" (at 48.26 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 48.26 107.6269 0)
@@ -1954,7 +1954,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0295") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
       (project "SynthProj"
@@ -1968,7 +1968,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 207.01 102.87 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 058ad966-20bf-408e-99ef-e78324732c8c)
-    (property "Reference" "RV?" (at 208.1784 101.1682 0)
+    (property "Reference" "RV26" (at 208.1784 101.1682 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 205.867 101.1682 0)
@@ -1986,7 +1986,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV26") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2009,7 +2009,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 179.07 102.87 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09224d3c-f2c7-4e7d-b53c-ce8d0a68d9c1)
-    (property "Reference" "RV?" (at 177.9016 101.1682 0)
+    (property "Reference" "RV22" (at 177.9016 101.1682 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 180.213 101.1682 0)
@@ -2027,7 +2027,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV22") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2050,7 +2050,7 @@
   (symbol (lib_id "power:GNDREF") (at 115.57 156.21 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b775559-bc2a-4781-a993-1d5406fb805a)
-    (property "Reference" "#PWR0306" (at 115.57 162.56 0)
+    (property "Reference" "#PWR083" (at 115.57 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 115.57 160.3431 0)
@@ -2066,7 +2066,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0306") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2080,7 +2080,7 @@
   (symbol (lib_id "Device:R_US") (at 160.02 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e96d3f5-272c-4bb3-890a-6099dfc3a239)
-    (property "Reference" "R?" (at 160.02 40.64 90)
+    (property "Reference" "R60" (at 160.02 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 160.02 43.18 90)
@@ -2097,7 +2097,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R60") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2117,7 +2117,7 @@
   (symbol (lib_id "Device:C") (at 40.64 115.57 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13de0d2c-130a-46ea-af37-333567e1c55b)
-    (property "Reference" "C?" (at 47.0408 115.57 90)
+    (property "Reference" "C28" (at 47.0408 115.57 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4.7uF" (at 44.7294 115.57 90)
@@ -2134,7 +2134,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "C?") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2151,7 +2151,7 @@
   (symbol (lib_id "74xx:CD74HC4067M") (at 81.28 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 153af86e-82ff-4bcd-845a-5360c4052751)
-    (property "Reference" "U?" (at 83.4741 50.8 0)
+    (property "Reference" "U12" (at 83.4741 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CD74HC4067M" (at 83.4741 53.34 0)
@@ -2190,7 +2190,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "U?") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
       (project "AnalogTestBoard2"
@@ -2209,7 +2209,7 @@
   (symbol (lib_id "Device:R_US") (at 149.86 109.22 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16c0b2f2-d8a5-4896-8c19-86395baac966)
-    (property "Reference" "R?" (at 149.86 114.427 90)
+    (property "Reference" "R59" (at 149.86 114.427 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 149.86 112.1156 90)
@@ -2226,7 +2226,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2246,7 +2246,7 @@
   (symbol (lib_id "Amplifier_Operational:TL084") (at 129.54 166.37 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a0818e3-b31c-48f1-b602-09f1c7af05dd)
-    (property "Reference" "U26" (at 129.54 157.1457 0)
+    (property "Reference" "U11" (at 129.54 157.1457 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL084" (at 129.54 159.5699 0)
@@ -2275,7 +2275,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "U26") (unit 4)
+          (reference "U11") (unit 4)
         )
       )
       (project "SynthProj"
@@ -2289,7 +2289,7 @@
   (symbol (lib_id "Device:R_US") (at 43.18 24.13 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e3cd55f-5650-4f96-ac2d-41ad8c848f01)
-    (property "Reference" "R?" (at 43.18 19.05 90)
+    (property "Reference" "R39" (at 43.18 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 43.18 21.59 90)
@@ -2306,7 +2306,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2326,7 +2326,7 @@
   (symbol (lib_id "power:GNDREF") (at 106.68 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fbb6a21-e0b0-4c4b-8123-025b904c4e9f)
-    (property "Reference" "#PWR0305" (at 106.68 119.38 0)
+    (property "Reference" "#PWR082" (at 106.68 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 106.68 117.1631 0)
@@ -2342,7 +2342,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0305") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2356,7 +2356,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 102.87 52.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20d55ed5-ef57-441f-907e-544f4b3f15e6)
-    (property "Reference" "RV?" (at 101.7016 53.7718 0)
+    (property "Reference" "RV4" (at 101.7016 53.7718 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 104.013 53.7718 0)
@@ -2374,7 +2374,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV4") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2397,7 +2397,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 168.91 102.87 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 233d40aa-a03a-4ec7-91c2-7531bb0a170d)
-    (property "Reference" "RV?" (at 170.0784 101.1682 0)
+    (property "Reference" "RV18" (at 170.0784 101.1682 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 167.767 101.1682 0)
@@ -2415,7 +2415,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV18") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2438,7 +2438,7 @@
   (symbol (lib_id "power:+12V") (at 55.88 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 248e73e9-3d9f-45fa-9b51-3db0dff5c32b)
-    (property "Reference" "#PWR0297" (at 55.88 115.57 0)
+    (property "Reference" "#PWR074" (at 55.88 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 55.88 107.6269 0)
@@ -2454,7 +2454,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0297") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2468,7 +2468,7 @@
   (symbol (lib_id "Amplifier_Operational:TL082") (at 45.72 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 266f227f-6355-4b28-b6a5-2d500f6ccef9)
-    (property "Reference" "U25" (at 45.72 135.5557 0)
+    (property "Reference" "U10" (at 45.72 135.5557 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL082" (at 45.72 137.9799 0)
@@ -2491,7 +2491,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "U25") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2505,7 +2505,7 @@
   (symbol (lib_id "Device:R_US") (at 111.76 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26864a6c-0a77-4bc3-af05-2e8271f5e65c)
-    (property "Reference" "R?" (at 111.76 53.34 90)
+    (property "Reference" "R49" (at 111.76 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 111.76 50.8 90)
@@ -2522,7 +2522,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2542,7 +2542,7 @@
   (symbol (lib_id "power:GNDREF") (at 127 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26be535f-29cb-4689-808f-d5961d78d3bd)
-    (property "Reference" "#PWR0307" (at 127 35.56 0)
+    (property "Reference" "#PWR084" (at 127 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 127 38.735 90)
@@ -2558,7 +2558,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0307") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2572,7 +2572,7 @@
   (symbol (lib_id "power:-12V") (at 55.88 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28095c54-3fb5-4107-8167-876b958377ea)
-    (property "Reference" "#PWR0298" (at 55.88 129.54 0)
+    (property "Reference" "#PWR075" (at 55.88 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 55.88 131.1331 0)
@@ -2588,7 +2588,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0298") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2602,7 +2602,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 130.81 52.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bc53250-e7e9-428f-9d36-2d8d6ca21c23)
-    (property "Reference" "RV?" (at 131.9784 53.7718 0)
+    (property "Reference" "RV9" (at 131.9784 53.7718 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 129.667 53.7718 0)
@@ -2620,7 +2620,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV9") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2643,7 +2643,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 217.17 41.91 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bd171ae-0af6-4faa-88a4-be911c7b36fc)
-    (property "Reference" "RV?" (at 216.0016 40.2082 0)
+    (property "Reference" "RV28" (at 216.0016 40.2082 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 218.313 40.2082 0)
@@ -2661,7 +2661,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV28") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2684,7 +2684,7 @@
   (symbol (lib_id "Amplifier_Operational:TL084") (at 129.54 147.32 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ce98675-3dab-424c-a0b1-0e16cbadc236)
-    (property "Reference" "U26" (at 129.54 138.0957 0)
+    (property "Reference" "U11" (at 129.54 138.0957 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL084" (at 129.54 140.5199 0)
@@ -2713,7 +2713,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "U26") (unit 3)
+          (reference "U11") (unit 3)
         )
       )
       (project "SynthProj"
@@ -2727,7 +2727,7 @@
   (symbol (lib_id "Device:R_US") (at 187.96 45.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d17338e-6b3a-4c06-b27f-8580050213b6)
-    (property "Reference" "R?" (at 187.96 40.513 90)
+    (property "Reference" "R64" (at 187.96 40.513 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 187.96 42.8244 90)
@@ -2744,7 +2744,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R64") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2764,7 +2764,7 @@
   (symbol (lib_id "Device:R_US") (at 198.12 109.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e600a04-0124-46a0-99c5-6771285e35fb)
-    (property "Reference" "R?" (at 198.12 114.3 90)
+    (property "Reference" "R71" (at 198.12 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 198.12 111.76 90)
@@ -2781,7 +2781,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R71") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2801,7 +2801,7 @@
   (symbol (lib_id "Device:C") (at 115.57 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 300b23a6-d3fd-4a05-8d49-66ffbb899075)
-    (property "Reference" "C?" (at 107.95 152.4 0)
+    (property "Reference" "C33" (at 107.95 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 107.95 154.94 0)
@@ -2818,7 +2818,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "C?") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2838,7 +2838,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 140.97 41.91 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31e4fd23-3764-4cdf-a95e-e536420f895b)
-    (property "Reference" "RV?" (at 139.8016 40.2082 0)
+    (property "Reference" "RV12" (at 139.8016 40.2082 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 142.113 40.2082 0)
@@ -2856,7 +2856,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV12") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2879,7 +2879,7 @@
   (symbol (lib_id "Device:R_US") (at 78.74 38.1 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 356a5965-d7b1-47d6-881b-11405870190a)
-    (property "Reference" "R?" (at 78.74 33.02 90)
+    (property "Reference" "R46" (at 78.74 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200k" (at 78.74 35.56 90)
@@ -2896,7 +2896,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2916,7 +2916,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 179.07 41.91 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35fbb1d5-5eea-4aeb-8ae4-825090b12b1b)
-    (property "Reference" "RV?" (at 177.9016 40.2082 0)
+    (property "Reference" "RV20" (at 177.9016 40.2082 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 180.213 40.2082 0)
@@ -2934,7 +2934,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV20") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2957,7 +2957,7 @@
   (symbol (lib_id "Device:R_US") (at 93.98 144.78 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3775c3db-5c99-4b96-9f8d-9ec38511bf5c)
-    (property "Reference" "R?" (at 93.98 139.7 90)
+    (property "Reference" "R47" (at 93.98 139.7 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 93.98 142.24 90)
@@ -2974,7 +2974,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
       (project "SynthProj"
@@ -2994,7 +2994,7 @@
   (symbol (lib_id "power:GNDREF") (at 35.56 142.24 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 384eefb3-c496-4042-895f-6733a971d3d8)
-    (property "Reference" "#PWR0291" (at 35.56 148.59 0)
+    (property "Reference" "#PWR068" (at 35.56 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 35.56 146.3731 0)
@@ -3010,7 +3010,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0291") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3024,7 +3024,7 @@
   (symbol (lib_id "Amplifier_Operational:TL084") (at 50.8 119.38 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38bab887-104c-4a34-963e-b7ead3dbffe1)
-    (property "Reference" "U26" (at 48.895 118.1679 0)
+    (property "Reference" "U11" (at 48.895 118.1679 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TL084" (at 48.895 120.5921 0)
@@ -3053,7 +3053,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "U26") (unit 5)
+          (reference "U11") (unit 5)
         )
       )
       (project "SynthProj"
@@ -3067,7 +3067,7 @@
   (symbol (lib_id "Device:R_US") (at 226.06 109.22 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39cc07ac-7fa2-4dd5-972d-541d5444f641)
-    (property "Reference" "R?" (at 226.06 114.427 90)
+    (property "Reference" "R75" (at 226.06 114.427 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 226.06 112.1156 90)
@@ -3084,7 +3084,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R75") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3104,7 +3104,7 @@
   (symbol (lib_id "power:GNDREF") (at 36.83 119.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a41b7bb-c086-4be1-bf89-5f693ee3c21e)
-    (property "Reference" "#PWR?" (at 30.48 119.38 0)
+    (property "Reference" "#PWR069" (at 30.48 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 32.4358 119.507 0)
@@ -3120,7 +3120,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3137,7 +3137,7 @@
   (symbol (lib_id "Amplifier_Operational:TL082") (at 58.42 119.38 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f2c918e-1c08-4de5-86fb-02c2729e3bac)
-    (property "Reference" "U25" (at 56.515 118.1679 0)
+    (property "Reference" "U10" (at 56.515 118.1679 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TL082" (at 56.515 120.5921 0)
@@ -3160,7 +3160,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "U25") (unit 3)
+          (reference "U10") (unit 3)
         )
       )
       (project "SynthProj"
@@ -3174,7 +3174,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 245.11 52.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46146b26-686b-40c3-95f8-8938013cfb5d)
-    (property "Reference" "RV?" (at 246.2784 53.7718 0)
+    (property "Reference" "RV33" (at 246.2784 53.7718 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 243.967 53.7718 0)
@@ -3192,7 +3192,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV33") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3215,7 +3215,7 @@
   (symbol (lib_id "Device:R_US") (at 68.58 31.75 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a24522c-3685-4371-9f13-24b8701a3cd5)
-    (property "Reference" "R?" (at 68.58 26.67 90)
+    (property "Reference" "R44" (at 68.58 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 68.58 29.21 90)
@@ -3232,7 +3232,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3252,7 +3252,7 @@
   (symbol (lib_id "power:GNDREF") (at 220.98 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ecd290f-c218-4094-951c-03b5ab30d55f)
-    (property "Reference" "#PWR0318" (at 220.98 119.38 0)
+    (property "Reference" "#PWR095" (at 220.98 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 220.98 117.1631 0)
@@ -3268,7 +3268,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0318") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3282,7 +3282,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 207.01 113.03 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ed84d0e-8781-4180-a808-e743c773b10a)
-    (property "Reference" "RV?" (at 208.1784 114.7318 0)
+    (property "Reference" "RV27" (at 208.1784 114.7318 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 205.867 114.7318 0)
@@ -3300,7 +3300,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV27") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3323,7 +3323,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 140.97 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f3f7638-723f-40a0-99d2-d3caf24861f0)
-    (property "Reference" "RV?" (at 139.8016 114.7318 0)
+    (property "Reference" "RV15" (at 139.8016 114.7318 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 142.113 114.7318 0)
@@ -3341,7 +3341,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV15") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3364,7 +3364,7 @@
   (symbol (lib_id "power:GNDREF") (at 203.2 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50fd43e8-6a70-4ea9-9ff9-8292f36f4eb7)
-    (property "Reference" "#PWR0315" (at 203.2 35.56 0)
+    (property "Reference" "#PWR092" (at 203.2 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 203.2 38.735 90)
@@ -3380,7 +3380,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0315") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3394,7 +3394,7 @@
   (symbol (lib_id "power:GNDREF") (at 182.88 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52c8cc22-b825-4e90-987f-9b13e2df1f67)
-    (property "Reference" "#PWR0314" (at 182.88 119.38 0)
+    (property "Reference" "#PWR091" (at 182.88 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 182.88 117.1631 0)
@@ -3410,7 +3410,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0314") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3424,7 +3424,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 102.87 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54de0216-a75b-4d8f-bce4-1f9cfd5fd1dc)
-    (property "Reference" "RV?" (at 101.7016 114.7318 0)
+    (property "Reference" "RV6" (at 101.7016 114.7318 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 104.013 114.7318 0)
@@ -3442,7 +3442,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV6") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3465,7 +3465,7 @@
   (symbol (lib_id "Device:R_US") (at 44.45 154.94 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57e9273f-13f5-445c-8935-c7495b7350f4)
-    (property "Reference" "R?" (at 44.45 160.02 90)
+    (property "Reference" "R40" (at 44.45 160.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 44.45 157.48 90)
@@ -3482,7 +3482,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3502,7 +3502,7 @@
   (symbol (lib_id "Device:R_US") (at 160.02 106.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 589a3f41-c112-4a4c-836f-5fec370f5b6d)
-    (property "Reference" "R?" (at 160.02 101.473 90)
+    (property "Reference" "R62" (at 160.02 101.473 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 160.02 103.7844 90)
@@ -3519,7 +3519,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R62") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3539,7 +3539,7 @@
   (symbol (lib_id "power:GNDREF") (at 220.98 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ba59946-6eb6-470b-b4a0-add67b0c7897)
-    (property "Reference" "#PWR0317" (at 220.98 35.56 0)
+    (property "Reference" "#PWR094" (at 220.98 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 220.98 37.7769 0)
@@ -3555,7 +3555,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0317") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3569,7 +3569,7 @@
   (symbol (lib_id "Device:R_US") (at 198.12 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5df6a367-01ee-4844-8bd0-fa04f1492ef9)
-    (property "Reference" "R?" (at 198.12 40.64 90)
+    (property "Reference" "R68" (at 198.12 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 198.12 43.18 90)
@@ -3586,7 +3586,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R68") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3606,7 +3606,7 @@
   (symbol (lib_id "Device:R_US") (at 59.69 144.78 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5edec7d9-e88d-4724-a108-97a30e8b89a9)
-    (property "Reference" "R?" (at 59.69 139.7 90)
+    (property "Reference" "R42" (at 59.69 139.7 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 59.69 142.24 90)
@@ -3623,7 +3623,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3643,7 +3643,7 @@
   (symbol (lib_id "Amplifier_Operational:TL084") (at 129.54 184.15 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fa5d461-2752-4bb5-b140-573b3ec8160b)
-    (property "Reference" "U26" (at 129.54 174.9257 0)
+    (property "Reference" "U11" (at 129.54 174.9257 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL084" (at 129.54 177.3499 0)
@@ -3672,7 +3672,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "U26") (unit 2)
+          (reference "U11") (unit 2)
         )
       )
       (project "SynthProj"
@@ -3686,7 +3686,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 207.01 52.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6186eea5-247b-4feb-83c3-81630634f224)
-    (property "Reference" "RV?" (at 208.1784 53.7718 0)
+    (property "Reference" "RV25" (at 208.1784 53.7718 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 205.867 53.7718 0)
@@ -3704,7 +3704,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV25") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3727,7 +3727,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 102.87 102.87 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62c0210c-70e6-4dd6-babd-5530a6d9d937)
-    (property "Reference" "RV?" (at 101.7016 101.1682 0)
+    (property "Reference" "RV5" (at 101.7016 101.1682 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 104.013 101.1682 0)
@@ -3745,7 +3745,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV5") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3768,7 +3768,7 @@
   (symbol (lib_id "Device:R_US") (at 198.12 106.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 646e0793-9d28-4c1f-8f43-b839752bfa57)
-    (property "Reference" "R?" (at 198.12 101.473 90)
+    (property "Reference" "R70" (at 198.12 101.473 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 198.12 103.7844 90)
@@ -3785,7 +3785,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R70") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3805,7 +3805,7 @@
   (symbol (lib_id "Device:R_US") (at 68.58 24.13 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6883e550-8241-4725-b2d4-4ec61714f1d7)
-    (property "Reference" "R?" (at 68.58 19.05 90)
+    (property "Reference" "R43" (at 68.58 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 68.58 21.59 90)
@@ -3822,7 +3822,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3842,7 +3842,7 @@
   (symbol (lib_id "Device:R_US") (at 226.06 45.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6894f567-ac32-4e22-8e13-1e048c758085)
-    (property "Reference" "R?" (at 226.06 40.513 90)
+    (property "Reference" "R72" (at 226.06 40.513 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 226.06 42.8244 90)
@@ -3859,7 +3859,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R72") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3879,7 +3879,7 @@
   (symbol (lib_id "Device:C") (at 59.69 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 690c9654-e2b9-42a4-9ae3-e0e16502a829)
-    (property "Reference" "C?" (at 52.07 26.67 0)
+    (property "Reference" "C31" (at 52.07 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 50.8 29.21 0)
@@ -3896,7 +3896,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "C?") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3916,7 +3916,7 @@
   (symbol (lib_id "Device:R_US") (at 236.22 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6be25133-be21-4736-933a-ed3a3cfe0b5a)
-    (property "Reference" "R?" (at 236.22 40.64 90)
+    (property "Reference" "R76" (at 236.22 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 236.22 43.18 90)
@@ -3933,7 +3933,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R76") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3953,7 +3953,7 @@
   (symbol (lib_id "power:GNDREF") (at 165.1 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e7b4cf9-3a9d-42a6-92e9-3d87684fe9ec)
-    (property "Reference" "#PWR0312" (at 165.1 119.38 0)
+    (property "Reference" "#PWR089" (at 165.1 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 165.1 116.205 90)
@@ -3969,7 +3969,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0312") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
       (project "SynthProj"
@@ -3983,7 +3983,7 @@
   (symbol (lib_id "power:-12V") (at 40.64 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7062d97f-e43a-467f-91b5-613056d860a1)
-    (property "Reference" "#PWR?" (at 40.64 129.54 0)
+    (property "Reference" "#PWR071" (at 40.64 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 40.259 131.3942 0)
@@ -3999,7 +3999,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4016,7 +4016,7 @@
   (symbol (lib_id "power:+5V") (at 81.28 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73d2f27d-52dd-4f03-8d63-3b811a3238da)
-    (property "Reference" "#PWR0302" (at 81.28 55.88 0)
+    (property "Reference" "#PWR079" (at 81.28 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 81.28 47.9369 0)
@@ -4032,7 +4032,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0302") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4046,7 +4046,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 140.97 102.87 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 794f1f13-657f-4b7a-a29f-6e68b833b10d)
-    (property "Reference" "RV?" (at 139.8016 101.1682 0)
+    (property "Reference" "RV14" (at 139.8016 101.1682 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 142.113 101.1682 0)
@@ -4064,7 +4064,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV14") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4087,7 +4087,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 245.11 41.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c737e7a-02f4-4c20-9f6b-6649eb549df2)
-    (property "Reference" "RV?" (at 246.2784 40.2082 0)
+    (property "Reference" "RV32" (at 246.2784 40.2082 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 243.967 40.2082 0)
@@ -4105,7 +4105,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV32") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4128,7 +4128,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 217.17 102.87 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cd3eb9e-86c2-4775-aa98-ae8d507c35b9)
-    (property "Reference" "RV?" (at 216.0016 101.1682 0)
+    (property "Reference" "RV30" (at 216.0016 101.1682 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 218.313 101.1682 0)
@@ -4146,7 +4146,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV30") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4169,7 +4169,7 @@
   (symbol (lib_id "Device:R_US") (at 236.22 106.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7de508b0-6aba-43fe-a381-51438f18c685)
-    (property "Reference" "R?" (at 236.22 101.473 90)
+    (property "Reference" "R78" (at 236.22 101.473 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 236.22 103.7844 90)
@@ -4186,7 +4186,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R78") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4206,7 +4206,7 @@
   (symbol (lib_id "power:GNDREF") (at 241.3 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 830afced-5133-45c0-a837-a8283a04ffcb)
-    (property "Reference" "#PWR0319" (at 241.3 35.56 0)
+    (property "Reference" "#PWR096" (at 241.3 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 241.3 38.735 90)
@@ -4222,7 +4222,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0319") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4236,7 +4236,7 @@
   (symbol (lib_id "Device:R_US") (at 236.22 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83b775e8-acb1-4089-bdb3-238bb7ec78f9)
-    (property "Reference" "R?" (at 236.22 53.467 90)
+    (property "Reference" "R77" (at 236.22 53.467 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 236.22 51.1556 90)
@@ -4253,7 +4253,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R77") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4273,7 +4273,7 @@
   (symbol (lib_id "Device:R_US") (at 111.76 45.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84f0f71f-7790-4be8-ba5e-88fd2a1e3b6b)
-    (property "Reference" "R?" (at 111.76 40.513 90)
+    (property "Reference" "R48" (at 111.76 40.513 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 111.76 42.8244 90)
@@ -4290,7 +4290,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4310,7 +4310,7 @@
   (symbol (lib_id "Device:R_US") (at 187.96 106.68 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 870c47cb-fdab-4710-b344-33cdc14fcdc2)
-    (property "Reference" "R?" (at 187.96 101.6 90)
+    (property "Reference" "R66" (at 187.96 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 187.96 104.14 90)
@@ -4327,7 +4327,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R66") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4347,7 +4347,7 @@
   (symbol (lib_id "power:GNDREF") (at 127 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8735f2d4-b603-45f1-b160-4db5fd7f1dd5)
-    (property "Reference" "#PWR0308" (at 127 119.38 0)
+    (property "Reference" "#PWR085" (at 127 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 127 116.205 90)
@@ -4363,7 +4363,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0308") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4377,7 +4377,7 @@
   (symbol (lib_id "power:GNDREF") (at 67.31 142.24 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87b28aed-484b-4860-991f-aa4327dc4e81)
-    (property "Reference" "#PWR0300" (at 67.31 148.59 0)
+    (property "Reference" "#PWR077" (at 67.31 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 67.31 146.3731 0)
@@ -4393,7 +4393,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0300") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4407,7 +4407,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 179.07 52.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b3b2761-be46-4edd-891b-80b546165db7)
-    (property "Reference" "RV?" (at 177.9016 53.7718 0)
+    (property "Reference" "RV21" (at 177.9016 53.7718 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 180.213 53.7718 0)
@@ -4425,7 +4425,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV21") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4448,7 +4448,7 @@
   (symbol (lib_id "Device:R_US") (at 121.92 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8decd054-92bd-4524-9e78-8d0da5bfe818)
-    (property "Reference" "R?" (at 121.92 53.467 90)
+    (property "Reference" "R53" (at 121.92 53.467 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 121.92 51.1556 90)
@@ -4465,7 +4465,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4485,7 +4485,7 @@
   (symbol (lib_id "Device:R_US") (at 236.22 109.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 915a5937-78fd-4df7-a813-dca58415741f)
-    (property "Reference" "R?" (at 236.22 114.3 90)
+    (property "Reference" "R79" (at 236.22 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 236.22 111.76 90)
@@ -4502,7 +4502,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R79") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4522,7 +4522,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 168.91 41.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93644c44-a061-42b7-a85f-46cc61bf1aa0)
-    (property "Reference" "RV?" (at 170.0784 40.2082 0)
+    (property "Reference" "RV16" (at 170.0784 40.2082 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 167.767 40.2082 0)
@@ -4540,7 +4540,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV16") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4563,7 +4563,7 @@
   (symbol (lib_id "Device:C") (at 40.64 123.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 943b3d33-7cf7-4064-8ca0-bcdcd4813c37)
-    (property "Reference" "C?" (at 47.0408 123.19 90)
+    (property "Reference" "C29" (at 47.0408 123.19 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "4.7uF" (at 44.7294 123.19 90)
@@ -4580,7 +4580,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "C?") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4597,7 +4597,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 140.97 52.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 967af0bc-ae56-4d30-87c6-0b4cc6f2324f)
-    (property "Reference" "RV?" (at 139.8016 53.7718 0)
+    (property "Reference" "RV13" (at 139.8016 53.7718 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 142.113 53.7718 0)
@@ -4615,7 +4615,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV13") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4638,7 +4638,7 @@
   (symbol (lib_id "Device:R_US") (at 149.86 106.68 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97198095-c38a-4a91-ac0a-b46a23615126)
-    (property "Reference" "R?" (at 149.86 101.6 90)
+    (property "Reference" "R58" (at 149.86 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 149.86 104.14 90)
@@ -4655,7 +4655,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4675,7 +4675,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 102.87 41.91 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97707266-197d-4de4-ab9f-6028389dab93)
-    (property "Reference" "RV?" (at 101.7016 40.2082 0)
+    (property "Reference" "RV3" (at 101.7016 40.2082 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 104.013 40.2082 0)
@@ -4693,7 +4693,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV3") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4716,7 +4716,7 @@
   (symbol (lib_id "power:GNDREF") (at 106.68 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ade507b-07b5-4f6c-ab3e-e30574123651)
-    (property "Reference" "#PWR0304" (at 106.68 35.56 0)
+    (property "Reference" "#PWR081" (at 106.68 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 106.68 37.7769 0)
@@ -4732,7 +4732,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0304") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4746,7 +4746,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 245.11 113.03 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b0f51e2-7936-4745-b09b-0aa5607dfb8b)
-    (property "Reference" "RV?" (at 246.2784 114.7318 0)
+    (property "Reference" "RV35" (at 246.2784 114.7318 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 243.967 114.7318 0)
@@ -4764,7 +4764,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV35") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4787,7 +4787,7 @@
   (symbol (lib_id "Device:R_US") (at 198.12 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d216064-601f-41ad-b5d2-603462005fa4)
-    (property "Reference" "R?" (at 198.12 53.467 90)
+    (property "Reference" "R69" (at 198.12 53.467 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 198.12 51.1556 90)
@@ -4804,7 +4804,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R69") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4824,7 +4824,7 @@
   (symbol (lib_id "Device:R_US") (at 121.92 109.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e032dee-3ebe-446d-b83d-5c38332f9ff9)
-    (property "Reference" "R?" (at 121.92 114.3 90)
+    (property "Reference" "R55" (at 121.92 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 121.92 111.76 90)
@@ -4841,7 +4841,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R55") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4861,7 +4861,7 @@
   (symbol (lib_id "Device:R_US") (at 121.92 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e4887aa-e001-400b-af51-93350ca2f660)
-    (property "Reference" "R?" (at 121.92 40.64 90)
+    (property "Reference" "R52" (at 121.92 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 121.92 43.18 90)
@@ -4878,7 +4878,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4898,7 +4898,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 111.76 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a26dc4a2-0684-415e-95aa-39180335daa6)
-    (property "Reference" "RV?" (at 110.5916 146.4818 0)
+    (property "Reference" "RV7" (at 110.5916 146.4818 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 112.903 146.4818 0)
@@ -4916,7 +4916,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV7") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4939,7 +4939,7 @@
   (symbol (lib_id "Device:R_US") (at 121.92 106.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a47ac477-65db-43b8-926d-db9832777593)
-    (property "Reference" "R?" (at 121.92 101.473 90)
+    (property "Reference" "R54" (at 121.92 101.473 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 121.92 103.7844 90)
@@ -4956,7 +4956,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
       (project "SynthProj"
@@ -4976,7 +4976,7 @@
   (symbol (lib_id "Device:C") (at 44.45 163.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4c8c768-e8a3-403b-bd10-0abf39ee973e)
-    (property "Reference" "C?" (at 44.45 171.45 0)
+    (property "Reference" "C30" (at 44.45 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 46.99 171.45 0)
@@ -4993,7 +4993,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "C?") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5013,7 +5013,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 168.91 113.03 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0f7a4a3-7ece-4949-b5ae-df8fc234ba3e)
-    (property "Reference" "RV?" (at 170.0784 114.7318 0)
+    (property "Reference" "RV19" (at 170.0784 114.7318 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 167.767 114.7318 0)
@@ -5031,7 +5031,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV19") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5054,7 +5054,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 217.17 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1ff9265-98b1-46ff-a50b-398f4f58067a)
-    (property "Reference" "RV?" (at 216.0016 114.7318 0)
+    (property "Reference" "RV31" (at 216.0016 114.7318 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 218.313 114.7318 0)
@@ -5072,7 +5072,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV31") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5095,7 +5095,7 @@
   (symbol (lib_id "Device:R_US") (at 149.86 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6b2f217-7db9-4e41-a2b1-3c6d3661010f)
-    (property "Reference" "R?" (at 149.86 53.34 90)
+    (property "Reference" "R57" (at 149.86 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 149.86 50.8 90)
@@ -5112,7 +5112,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R57") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5132,7 +5132,7 @@
   (symbol (lib_id "Device:R_US") (at 226.06 106.68 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6ecd5dd-67f3-42ef-b398-f81c4266b04b)
-    (property "Reference" "R?" (at 226.06 101.6 90)
+    (property "Reference" "R74" (at 226.06 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 226.06 104.14 90)
@@ -5149,7 +5149,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R74") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5169,7 +5169,7 @@
   (symbol (lib_id "power:GNDREF") (at 165.1 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b821657d-2b53-4aec-9d82-3fceeea9496f)
-    (property "Reference" "#PWR0311" (at 165.1 35.56 0)
+    (property "Reference" "#PWR088" (at 165.1 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 165.1 38.735 90)
@@ -5185,7 +5185,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0311") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5199,7 +5199,7 @@
   (symbol (lib_id "power:-12V") (at 48.26 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb7a4d35-d71b-402b-a2a0-8ad82049223b)
-    (property "Reference" "#PWR0296" (at 48.26 129.54 0)
+    (property "Reference" "#PWR073" (at 48.26 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 48.26 131.1331 0)
@@ -5215,7 +5215,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0296") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5229,7 +5229,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 245.11 102.87 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbcdb6ac-bd96-4e35-a661-98f9f52d76e4)
-    (property "Reference" "RV?" (at 246.2784 101.1682 0)
+    (property "Reference" "RV34" (at 246.2784 101.1682 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 243.967 101.1682 0)
@@ -5247,7 +5247,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV34") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5270,7 +5270,7 @@
   (symbol (lib_id "power:+12V") (at 35.56 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be43c90c-dc9e-445f-930b-3bf6d70049b0)
-    (property "Reference" "#PWR0290" (at 35.56 27.94 0)
+    (property "Reference" "#PWR067" (at 35.56 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 35.56 19.9969 0)
@@ -5286,7 +5286,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0290") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5300,7 +5300,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 179.07 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bec13360-8c9e-47c6-bd96-d773dd5b2252)
-    (property "Reference" "RV?" (at 177.9016 114.7318 0)
+    (property "Reference" "RV23" (at 177.9016 114.7318 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 180.213 114.7318 0)
@@ -5318,7 +5318,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV23") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5341,7 +5341,7 @@
   (symbol (lib_id "Device:R_US") (at 111.76 106.68 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bec9f8bb-dd63-41d3-8bcf-c16cb2ffb2bb)
-    (property "Reference" "R?" (at 111.76 101.6 90)
+    (property "Reference" "R50" (at 111.76 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 111.76 104.14 90)
@@ -5358,7 +5358,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5378,7 +5378,7 @@
   (symbol (lib_id "power:GNDREF") (at 241.3 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bedda6ef-b63c-4926-88d7-964894d51ab3)
-    (property "Reference" "#PWR0320" (at 241.3 119.38 0)
+    (property "Reference" "#PWR097" (at 241.3 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 241.3 116.205 90)
@@ -5394,7 +5394,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0320") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5408,7 +5408,7 @@
   (symbol (lib_id "Device:R_US") (at 187.96 109.22 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c040d339-228d-4d1b-9ddd-5e6477a565a7)
-    (property "Reference" "R?" (at 187.96 114.427 90)
+    (property "Reference" "R67" (at 187.96 114.427 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 187.96 112.1156 90)
@@ -5425,7 +5425,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R67") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5445,7 +5445,7 @@
   (symbol (lib_id "power:GNDREF") (at 68.58 92.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c45d0222-1928-45b7-9f99-11971d18eb53)
-    (property "Reference" "#PWR0301" (at 68.58 99.06 0)
+    (property "Reference" "#PWR078" (at 68.58 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 68.58 96.8431 0)
@@ -5461,7 +5461,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0301") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5475,7 +5475,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 168.91 52.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9b50adf-8ed5-4773-b5ab-af55acf66eb9)
-    (property "Reference" "RV?" (at 170.0784 53.7718 0)
+    (property "Reference" "RV17" (at 170.0784 53.7718 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 167.767 53.7718 0)
@@ -5493,7 +5493,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV17") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5516,7 +5516,7 @@
   (symbol (lib_id "Device:R_US") (at 111.76 109.22 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb68e8f4-aed8-4823-95fa-0f647de72591)
-    (property "Reference" "R?" (at 111.76 114.427 90)
+    (property "Reference" "R51" (at 111.76 114.427 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 111.76 112.1156 90)
@@ -5533,7 +5533,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5553,7 +5553,7 @@
   (symbol (lib_id "power:+12V") (at 40.64 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccdeb25f-2607-4539-a280-6aa94a17d1b6)
-    (property "Reference" "#PWR?" (at 40.64 115.57 0)
+    (property "Reference" "#PWR070" (at 40.64 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 41.021 107.3658 0)
@@ -5569,7 +5569,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5586,7 +5586,7 @@
   (symbol (lib_id "power:GNDREF") (at 182.88 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd16d373-3bb7-449e-9978-672435449374)
-    (property "Reference" "#PWR0313" (at 182.88 35.56 0)
+    (property "Reference" "#PWR090" (at 182.88 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 182.88 37.7769 0)
@@ -5602,7 +5602,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0313") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5616,7 +5616,7 @@
   (symbol (lib_id "power:GNDREF") (at 144.78 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d03cc733-136f-4027-a541-4372bcb81b81)
-    (property "Reference" "#PWR0309" (at 144.78 35.56 0)
+    (property "Reference" "#PWR086" (at 144.78 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 144.78 37.7769 0)
@@ -5632,7 +5632,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0309") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5646,7 +5646,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 130.81 102.87 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid daafdaad-c4ae-4875-a307-b9ec0dca7d4d)
-    (property "Reference" "RV?" (at 131.9784 101.1682 0)
+    (property "Reference" "RV10" (at 131.9784 101.1682 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 129.667 101.1682 0)
@@ -5664,7 +5664,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV10") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5687,7 +5687,7 @@
   (symbol (lib_id "Amplifier_Operational:TL082") (at 77.47 144.78 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid daf2b7e4-9fc5-4e77-adc4-4969137fbbd7)
-    (property "Reference" "U25" (at 77.47 135.5557 0)
+    (property "Reference" "U10" (at 77.47 135.5557 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL082" (at 77.47 137.9799 0)
@@ -5710,7 +5710,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "U25") (unit 2)
+          (reference "U10") (unit 2)
         )
       )
       (project "SynthProj"
@@ -5724,7 +5724,7 @@
   (symbol (lib_id "Device:R_US") (at 187.96 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db048b51-8f6f-4e5b-850b-db6dcd885202)
-    (property "Reference" "R?" (at 187.96 53.34 90)
+    (property "Reference" "R65" (at 187.96 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 187.96 50.8 90)
@@ -5741,7 +5741,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R65") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5761,7 +5761,7 @@
   (symbol (lib_id "Device:R_US") (at 160.02 109.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dee4911b-99e4-408b-a56d-8118855a745a)
-    (property "Reference" "R?" (at 160.02 114.3 90)
+    (property "Reference" "R63" (at 160.02 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 160.02 111.76 90)
@@ -5778,7 +5778,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R63") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5798,7 +5798,7 @@
   (symbol (lib_id "power:GNDREF") (at 59.69 31.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dee54a68-2067-4f02-a010-4a28b2a044dc)
-    (property "Reference" "#PWR0299" (at 59.69 38.1 0)
+    (property "Reference" "#PWR076" (at 59.69 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 59.69 35.8831 0)
@@ -5814,7 +5814,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0299") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5828,7 +5828,7 @@
   (symbol (lib_id "Device:R_US") (at 160.02 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df7eb5f1-88a0-4e5e-96f9-2d4632417c30)
-    (property "Reference" "R?" (at 160.02 53.467 90)
+    (property "Reference" "R61" (at 160.02 53.467 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 160.02 51.1556 90)
@@ -5845,7 +5845,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R61") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5865,7 +5865,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 207.01 41.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfd2748c-a1a1-4d2e-bec1-c3547ab28cec)
-    (property "Reference" "RV?" (at 208.1784 40.2082 0)
+    (property "Reference" "RV24" (at 208.1784 40.2082 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 205.867 40.2082 0)
@@ -5883,7 +5883,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV24") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5906,7 +5906,7 @@
   (symbol (lib_id "Device:R_US") (at 226.06 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0d1d94a-8ee1-48c0-aaf6-5d29c837c7b8)
-    (property "Reference" "R?" (at 226.06 53.34 90)
+    (property "Reference" "R73" (at 226.06 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 226.06 50.8 90)
@@ -5923,7 +5923,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R73") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5943,7 +5943,7 @@
   (symbol (lib_id "Amplifier_Operational:TL084") (at 80.01 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e77a39d5-14a0-4cb6-81c1-d01fafb7049d)
-    (property "Reference" "U26" (at 80.01 17.4457 0)
+    (property "Reference" "U11" (at 80.01 17.4457 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL084" (at 80.01 19.8699 0)
@@ -5972,7 +5972,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "U26") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
       (project "SynthProj"
@@ -5986,7 +5986,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 217.17 52.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e87a0f48-136a-4001-bf73-b9b3f49a5176)
-    (property "Reference" "RV?" (at 216.0016 53.7718 0)
+    (property "Reference" "RV29" (at 216.0016 53.7718 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 218.313 53.7718 0)
@@ -6004,7 +6004,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV29") (unit 1)
         )
       )
       (project "SynthProj"
@@ -6027,7 +6027,7 @@
   (symbol (lib_id "power:GNDREF") (at 81.28 105.41 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea828809-db9b-44c8-8f2d-dd03cfffb82a)
-    (property "Reference" "#PWR0303" (at 81.28 111.76 0)
+    (property "Reference" "#PWR080" (at 81.28 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 81.28 109.5431 0)
@@ -6043,7 +6043,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0303") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
       (project "SynthProj"
@@ -6057,7 +6057,7 @@
   (symbol (lib_id "Device:R_US") (at 55.88 24.13 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee21362a-d807-4567-a338-c62058d99d54)
-    (property "Reference" "R?" (at 55.88 19.05 90)
+    (property "Reference" "R41" (at 55.88 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 55.88 21.59 90)
@@ -6074,7 +6074,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
       (project "SynthProj"
@@ -6094,7 +6094,7 @@
   (symbol (lib_id "Device:C") (at 78.74 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee83a82e-2e44-4878-82c9-21e88fdd89ec)
-    (property "Reference" "C?" (at 85.725 41.91 90)
+    (property "Reference" "C32" (at 85.725 41.91 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 86.36 44.45 90)
@@ -6111,7 +6111,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "C?") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
       (project "SynthProj"
@@ -6131,7 +6131,7 @@
   (symbol (lib_id "Device:R_US") (at 149.86 45.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4005a0e-c64a-40a5-ba21-3821ea01f7a3)
-    (property "Reference" "R?" (at 149.86 40.513 90)
+    (property "Reference" "R56" (at 149.86 40.513 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2M" (at 149.86 42.8244 90)
@@ -6148,7 +6148,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
       (project "SynthProj"
@@ -6168,7 +6168,7 @@
   (symbol (lib_id "power:GNDREF") (at 203.2 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6fe4130-8988-4783-9954-24d0a17412ac)
-    (property "Reference" "#PWR0316" (at 203.2 119.38 0)
+    (property "Reference" "#PWR093" (at 203.2 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 203.2 116.205 90)
@@ -6184,7 +6184,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0316") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
       (project "SynthProj"
@@ -6198,7 +6198,7 @@
   (symbol (lib_id "Device:R_US") (at 77.47 156.21 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbe01375-542c-40a4-be81-8ad24a4d0cdc)
-    (property "Reference" "R?" (at 77.47 151.13 90)
+    (property "Reference" "R45" (at 77.47 151.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 77.47 153.67 90)
@@ -6215,7 +6215,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "R?") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
       (project "SynthProj"
@@ -6235,7 +6235,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 130.81 113.03 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc8ea528-442d-4387-91aa-03cecbaac413)
-    (property "Reference" "RV?" (at 131.9784 114.7318 0)
+    (property "Reference" "RV11" (at 131.9784 114.7318 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 129.667 114.7318 0)
@@ -6253,7 +6253,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV11") (unit 1)
         )
       )
       (project "SynthProj"
@@ -6276,7 +6276,7 @@
   (symbol (lib_id "power:GNDREF") (at 144.78 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe6f94d5-6ba0-458d-91d5-bb830323fd4d)
-    (property "Reference" "#PWR0310" (at 144.78 119.38 0)
+    (property "Reference" "#PWR087" (at 144.78 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 144.78 117.1631 0)
@@ -6292,7 +6292,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "#PWR0310") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
       (project "SynthProj"
@@ -6306,7 +6306,7 @@
   (symbol (lib_id "SynthProj-rescue:R_POT_US-Device") (at 130.81 41.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fec7accb-4ea8-4d5d-bfeb-edce8ae9895f)
-    (property "Reference" "RV?" (at 131.9784 40.2082 0)
+    (property "Reference" "RV8" (at 131.9784 40.2082 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 129.667 40.2082 0)
@@ -6324,7 +6324,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
-          (reference "RV?") (unit 1)
+          (reference "RV8") (unit 1)
         )
       )
       (project "SynthProj"
