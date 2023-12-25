@@ -3761,10 +3761,10 @@
   (symbol (lib_id "4xxx:40106") (at 116.84 135.89 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47102b20-5971-4aa9-97ba-9cab10b251ea)
-    (property "Reference" "U3" (at 116.84 127.9357 0)
+    (property "Reference" "U5" (at 116.84 127 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "40106" (at 116.84 130.3599 0)
+    (property "Value" "40106" (at 116.84 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 116.84 135.89 0)
@@ -3790,7 +3790,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/a120791a-9c87-4325-b919-053c468d1b1e"
-          (reference "U3") (unit 2)
+          (reference "U5") (unit 2)
         )
       )
       (project "SynthProj"
@@ -4045,7 +4045,7 @@
     (property "Value" "LED" (at 186.055 120.3325 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 182.88 120.015 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm" (at 182.88 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.88 120.015 0)
@@ -5041,7 +5041,7 @@
     (property "Value" "LED" (at 198.755 120.3325 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 195.58 120.015 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm" (at 195.58 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 195.58 120.015 0)
@@ -5198,7 +5198,7 @@
   (symbol (lib_id "4xxx:40106") (at 133.985 43.18 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d60fde0-e416-4502-b40f-b3047128f94f)
-    (property "Reference" "U5" (at 133.985 35.2257 0)
+    (property "Reference" "U3" (at 133.985 35.2257 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "40106" (at 133.985 37.6499 0)
@@ -5227,7 +5227,7 @@
     (instances
       (project "SoundLab16StepSequencer"
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/a120791a-9c87-4325-b919-053c468d1b1e"
-          (reference "U5") (unit 2)
+          (reference "U3") (unit 2)
         )
       )
       (project "SynthProj"
@@ -6298,7 +6298,7 @@
     (property "Value" "LED" (at 192.405 120.3325 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 189.23 120.015 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm" (at 189.23 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 189.23 120.015 0)
@@ -6382,7 +6382,7 @@
     (property "Value" "LED" (at 179.705 120.3325 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 176.53 120.015 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm" (at 176.53 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 120.015 0)
