@@ -1308,35 +1308,17 @@
   (junction (at 149.225 61.595) (diameter 0) (color 0 0 0 0)
     (uuid 1cfe35f5-b752-443c-9542-2a993e98fd7b)
   )
-  (junction (at 146.05 179.07) (diameter 0) (color 0 0 0 0)
-    (uuid 2424d613-f85e-4f77-bb6f-cd3cf499c6d1)
-  )
-  (junction (at 146.05 171.45) (diameter 0) (color 0 0 0 0)
-    (uuid 452a2614-54c4-4096-a00b-9d39650d998e)
-  )
   (junction (at 165.1 78.105) (diameter 0) (color 0 0 0 0)
     (uuid 6d6e3f73-7a8d-4841-a6c7-ae1813e132f2)
-  )
-  (junction (at 158.75 179.07) (diameter 0) (color 0 0 0 0)
-    (uuid 75f71fe7-c88e-47db-9679-06c7afa43ac7)
-  )
-  (junction (at 146.05 186.69) (diameter 0) (color 0 0 0 0)
-    (uuid 87ce0919-825d-4caf-aa09-133efeece943)
-  )
-  (junction (at 152.4 171.45) (diameter 0) (color 0 0 0 0)
-    (uuid 8b5d32cd-095e-4375-9d56-d640891f91a3)
-  )
-  (junction (at 152.4 179.07) (diameter 0) (color 0 0 0 0)
-    (uuid 985123d3-de8f-49a8-9621-ce05fcbc4acc)
   )
   (junction (at 89.535 116.205) (diameter 0) (color 0 0 0 0)
     (uuid 99d375a4-e3fa-4acf-8185-ac7d504a9856)
   )
+  (junction (at 151.765 176.53) (diameter 0) (color 0 0 0 0)
+    (uuid 9ab0cc77-47d2-4961-bb7a-2fbfa688fa34)
+  )
   (junction (at 170.18 61.595) (diameter 0) (color 0 0 0 0)
     (uuid 9ab1be35-b909-4f8b-a8ae-e99f3ee65aaf)
-  )
-  (junction (at 152.4 186.69) (diameter 0) (color 0 0 0 0)
-    (uuid e2bbe246-4996-4746-848a-bb1901ebbed0)
   )
   (junction (at 177.165 116.205) (diameter 0) (color 0 0 0 0)
     (uuid f02a84ae-3fea-4f1d-b757-c5f5befc010d)
@@ -1381,10 +1363,6 @@
     (stroke (width 0) (type default))
     (uuid 3684a54d-ec35-4739-abc5-aa7d1d2d90e6)
   )
-  (wire (pts (xy 152.4 179.07) (xy 158.75 179.07))
-    (stroke (width 0) (type default))
-    (uuid 40798da1-e7bb-4484-a68c-8e9b2d4176b6)
-  )
   (wire (pts (xy 130.175 71.755) (xy 130.175 76.2))
     (stroke (width 0) (type default))
     (uuid 441c22e5-6941-471b-88e8-6d745b633434)
@@ -1396,10 +1374,6 @@
   (wire (pts (xy 165.1 69.215) (xy 165.1 78.105))
     (stroke (width 0) (type default))
     (uuid 47a1107a-e546-47ec-8d9d-066706d3719b)
-  )
-  (wire (pts (xy 152.4 186.69) (xy 158.75 186.69))
-    (stroke (width 0) (type default))
-    (uuid 47bdad86-1978-400e-a054-612042752afb)
   )
   (wire (pts (xy 177.165 116.205) (xy 184.15 116.205))
     (stroke (width 0) (type default))
@@ -1433,10 +1407,6 @@
     (stroke (width 0) (type default))
     (uuid 7902cafe-b1e3-4587-974b-133b3789d575)
   )
-  (wire (pts (xy 142.24 179.07) (xy 146.05 179.07))
-    (stroke (width 0) (type default))
-    (uuid 83418d5f-c0e3-40fd-bd75-38d96dbbe4a5)
-  )
   (wire (pts (xy 186.055 56.515) (xy 191.135 56.515))
     (stroke (width 0) (type default))
     (uuid 845b8c78-f5a8-4d86-878e-e3bc064ecbb3)
@@ -1448,14 +1418,6 @@
   (wire (pts (xy 172.085 116.205) (xy 177.165 116.205))
     (stroke (width 0) (type default))
     (uuid 88ed7058-b8c7-4adc-a404-a9f1566183c0)
-  )
-  (wire (pts (xy 152.4 171.45) (xy 158.75 171.45))
-    (stroke (width 0) (type default))
-    (uuid 8fad1531-372e-462b-935b-ee03a0df3567)
-  )
-  (wire (pts (xy 146.05 171.45) (xy 152.4 171.45))
-    (stroke (width 0) (type default))
-    (uuid 9511fe2f-c4e2-4a4f-8656-81b4c9cad49d)
   )
   (wire (pts (xy 72.39 48.26) (xy 72.39 126.365))
     (stroke (width 0) (type default))
@@ -1472,10 +1434,6 @@
   (wire (pts (xy 122.555 61.595) (xy 118.745 61.595))
     (stroke (width 0) (type default))
     (uuid a801812a-bb03-4eab-a4aa-cdc378259ab5)
-  )
-  (wire (pts (xy 146.05 186.69) (xy 152.4 186.69))
-    (stroke (width 0) (type default))
-    (uuid b019a11f-3b8a-4f09-8bc1-3ea8c28602de)
   )
   (wire (pts (xy 93.345 97.79) (xy 128.905 97.79))
     (stroke (width 0) (type default))
@@ -1525,9 +1483,9 @@
     (stroke (width 0) (type default))
     (uuid dd0265b7-47c4-4559-aae3-6300a6928f5b)
   )
-  (wire (pts (xy 146.05 179.07) (xy 152.4 179.07))
+  (wire (pts (xy 150.495 176.53) (xy 151.765 176.53))
     (stroke (width 0) (type default))
-    (uuid dd0f04a5-7f8f-4f56-bd0c-eef746ca66cd)
+    (uuid e5f8b374-48ab-4518-9147-6504edf7990f)
   )
   (wire (pts (xy 118.745 61.595) (xy 118.745 73.025))
     (stroke (width 0) (type default))
@@ -1669,41 +1627,42 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 158.75 182.88 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 12fdf67a-7a72-4b57-8399-f29c8ec44ef0)
-    (property "Reference" "C74" (at 165.1508 182.88 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "47nF" (at 162.8394 182.88 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 157.7848 179.07 0)
+  (symbol (lib_id "power:-12V") (at 151.765 184.15 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 07fe5e91-8c78-436d-b952-9abb6b85f822)
+    (property "Reference" "#PWR0145" (at 151.765 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 158.75 182.88 0)
+    (property "Value" "-12V" (at 151.765 189.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 151.765 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 842ab74e-2882-4c20-986d-0338e67cde43))
-    (pin "1" (uuid a68c913c-52e6-42f4-be73-be820852931c))
+    (property "Datasheet" "" (at 151.765 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f05f8558-653d-4575-bc7a-0933081e306d))
     (instances
       (project "SoundLab16StepSequencer"
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/0a7f3508-a968-4335-a62b-d4c2b646ff42"
+          (reference "#PWR0145") (unit 1)
+        )
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
+          (reference "#PWR0193") (unit 1)
+        )
         (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
-          (reference "C74") (unit 1)
+          (reference "#PWR0176") (unit 1)
+        )
+      )
+      (project "AnalogTestBoard2"
+        (path "/6a5989ee-c5d0-4815-8576-7e34f570dc2e/fdea9e22-b4da-4f95-ae69-b8e3bce30eaf"
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "SynthProj"
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/00000000-0000-0000-0000-0000659a4e2e"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/0e948a88-c071-4754-aa3e-af223f738530"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/891afddb-f75e-4ea6-80b3-8ff315aac97b"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
-          (reference "C187") (unit 1)
+        (path "/9021c97e-351f-4ed9-b393-50257df6a463/83f63f47-5f59-465e-b73f-db84e2bb89da"
+          (reference "#PWR0249") (unit 1)
         )
       )
     )
@@ -2107,86 +2066,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 146.05 175.26 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 608d642f-99bb-41a1-af09-ab77465611e2)
-    (property "Reference" "C69" (at 152.4508 175.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "4.7uF" (at 150.1394 175.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 145.0848 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 146.05 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid af693449-03c3-49e6-8b74-0c84bf7c3472))
-    (pin "1" (uuid f6fccd94-6a6a-4fd2-ac79-86928c74b774))
-    (instances
-      (project "SoundLab16StepSequencer"
-        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
-          (reference "C69") (unit 1)
-        )
-      )
-      (project "SynthProj"
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/00000000-0000-0000-0000-0000659a4e2e"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/0e948a88-c071-4754-aa3e-af223f738530"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/891afddb-f75e-4ea6-80b3-8ff315aac97b"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
-          (reference "C182") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 146.05 182.88 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6479ffb3-8c97-4fe0-a131-553180acc27c)
-    (property "Reference" "C70" (at 152.4508 182.88 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "4.7uF" (at 150.1394 182.88 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 145.0848 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 146.05 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bfce9f67-99dd-4008-913a-78ed8bb040ba))
-    (pin "2" (uuid 6f150ee6-4943-4ed5-95fa-4efdbb208c4f))
-    (instances
-      (project "SoundLab16StepSequencer"
-        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
-          (reference "C70") (unit 1)
-        )
-      )
-      (project "SynthProj"
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/00000000-0000-0000-0000-0000659a4e2e"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/0e948a88-c071-4754-aa3e-af223f738530"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/891afddb-f75e-4ea6-80b3-8ff315aac97b"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
-          (reference "C183") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_US") (at 147.955 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6535e337-33e1-4b9d-a1bf-41a200f64cad)
@@ -2269,6 +2148,48 @@
         )
         (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
           (reference "#PWR0419") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 151.765 180.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 66f7598c-f3c2-447a-9ca6-5a82d1040375)
+    (property "Reference" "C50" (at 155.575 179.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "470nF" (at 155.575 181.61 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 152.7302 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 151.765 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 58b9a0f1-3e76-4869-a7e9-f78a652cacfb))
+    (pin "2" (uuid 820c6b5a-2bec-4bbe-aa5c-96205a1c2cc3))
+    (instances
+      (project "SoundLab16StepSequencer"
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/0a7f3508-a968-4335-a62b-d4c2b646ff42"
+          (reference "C50") (unit 1)
+        )
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
+          (reference "C35") (unit 1)
+        )
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
+          (reference "C39") (unit 1)
+        )
+      )
+      (project "AnalogTestBoard2"
+        (path "/6a5989ee-c5d0-4815-8576-7e34f570dc2e/fdea9e22-b4da-4f95-ae69-b8e3bce30eaf"
+          (reference "C?") (unit 1)
+        )
+      )
+      (project "SynthProj"
+        (path "/9021c97e-351f-4ed9-b393-50257df6a463/83f63f47-5f59-465e-b73f-db84e2bb89da"
+          (reference "C104") (unit 1)
         )
       )
     )
@@ -2370,46 +2291,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 158.75 175.26 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8351e633-0418-4a6d-88be-58ae61120481)
-    (property "Reference" "C73" (at 165.1508 175.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "47nF" (at 162.8394 175.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 157.7848 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 158.75 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1c56faf8-3a95-4ba1-8837-075b4e04518e))
-    (pin "2" (uuid 3b3df806-c0d8-47cd-91ac-fa931a07c05d))
-    (instances
-      (project "SoundLab16StepSequencer"
-        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
-          (reference "C73") (unit 1)
-        )
-      )
-      (project "SynthProj"
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/00000000-0000-0000-0000-0000659a4e2e"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/0e948a88-c071-4754-aa3e-af223f738530"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/891afddb-f75e-4ea6-80b3-8ff315aac97b"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
-          (reference "C186") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_US") (at 143.51 135.255 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87fe27e8-cbf3-4092-b0b4-35fdaf83b9e6)
@@ -2458,6 +2339,48 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 151.765 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8abcea96-5bb3-48c3-b7e0-5a0b4e938d30)
+    (property "Reference" "C52" (at 155.575 171.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "470nF" (at 155.575 173.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 152.7302 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 151.765 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 32c8d29b-2446-4ee7-9f78-97b8df87be99))
+    (pin "2" (uuid 6f9f7a41-88d9-481b-b964-157d2b023969))
+    (instances
+      (project "SoundLab16StepSequencer"
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/0a7f3508-a968-4335-a62b-d4c2b646ff42"
+          (reference "C52") (unit 1)
+        )
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
+          (reference "C34") (unit 1)
+        )
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
+          (reference "C38") (unit 1)
+        )
+      )
+      (project "AnalogTestBoard2"
+        (path "/6a5989ee-c5d0-4815-8576-7e34f570dc2e/fdea9e22-b4da-4f95-ae69-b8e3bce30eaf"
+          (reference "C?") (unit 1)
+        )
+      )
+      (project "SynthProj"
+        (path "/9021c97e-351f-4ed9-b393-50257df6a463/83f63f47-5f59-465e-b73f-db84e2bb89da"
+          (reference "C104") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+12V") (at 170.18 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8dea9627-1a7b-4609-956d-5290229867fd)
@@ -2497,6 +2420,47 @@
     )
   )
 
+  (symbol (lib_id "power:GNDREF") (at 150.495 176.53 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 926cb1b9-f6fc-41d1-aee9-0413dbb8f375)
+    (property "Reference" "#PWR0143" (at 144.145 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDREF" (at 146.685 176.53 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "" (at 150.495 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 150.495 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d32cef0f-96c9-454c-aee0-657bc8777c9f))
+    (instances
+      (project "SoundLab16StepSequencer"
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/0a7f3508-a968-4335-a62b-d4c2b646ff42"
+          (reference "#PWR0143") (unit 1)
+        )
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
+          (reference "#PWR0191") (unit 1)
+        )
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
+          (reference "#PWR0148") (unit 1)
+        )
+      )
+      (project "AnalogTestBoard2"
+        (path "/6a5989ee-c5d0-4815-8576-7e34f570dc2e/fdea9e22-b4da-4f95-ae69-b8e3bce30eaf"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "SynthProj"
+        (path "/9021c97e-351f-4ed9-b393-50257df6a463/83f63f47-5f59-465e-b73f-db84e2bb89da"
+          (reference "#PWR0247") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Transistor_BJT:2N3904") (at 202.565 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9441a8b6-73fc-4266-9744-2495a806e8cf)
@@ -2524,6 +2488,47 @@
       (project "SynthProj"
         (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
           (reference "Q27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 151.765 168.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 95f19a3b-6190-4eba-ba23-1be4484ec70b)
+    (property "Reference" "#PWR0144" (at 151.765 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 151.765 163.83 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 151.765 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 151.765 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8b87d6ab-58ee-4335-b753-17a7909f3711))
+    (instances
+      (project "SoundLab16StepSequencer"
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/0a7f3508-a968-4335-a62b-d4c2b646ff42"
+          (reference "#PWR0144") (unit 1)
+        )
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/85596169-7c1a-4064-9633-b93fd3cc9e2a"
+          (reference "#PWR0192") (unit 1)
+        )
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
+          (reference "#PWR0175") (unit 1)
+        )
+      )
+      (project "AnalogTestBoard2"
+        (path "/6a5989ee-c5d0-4815-8576-7e34f570dc2e/fdea9e22-b4da-4f95-ae69-b8e3bce30eaf"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "SynthProj"
+        (path "/9021c97e-351f-4ed9-b393-50257df6a463/83f63f47-5f59-465e-b73f-db84e2bb89da"
+          (reference "#PWR0248") (unit 1)
         )
       )
     )
@@ -2697,45 +2702,6 @@
     )
   )
 
-  (symbol (lib_id "power:+12V") (at 146.05 171.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b0fedab7-c6ac-43f9-8753-2a33b9d84b27)
-    (property "Reference" "#PWR0176" (at 146.05 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 146.431 167.0558 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 146.05 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 146.05 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2aa8dfcf-6785-4911-a616-8084dca920d7))
-    (instances
-      (project "SoundLab16StepSequencer"
-        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
-          (reference "#PWR0176") (unit 1)
-        )
-      )
-      (project "SynthProj"
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/00000000-0000-0000-0000-0000659a4e2e"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/0e948a88-c071-4754-aa3e-af223f738530"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/891afddb-f75e-4ea6-80b3-8ff315aac97b"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
-          (reference "#PWR0413") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GNDREF") (at 205.105 100.965 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b60880ab-7f06-4dde-a64f-bfcf408822c9)
@@ -2864,46 +2830,6 @@
         )
         (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
           (reference "U33") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 152.4 182.88 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid da81a97c-c575-43ae-8414-b0550aa837e6)
-    (property "Reference" "C72" (at 158.8008 182.88 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "470nF" (at 156.4894 182.88 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 151.4348 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 152.4 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 510e23f4-930b-4f7b-8847-4483b14d98a6))
-    (pin "2" (uuid 39275071-c042-4917-b5a4-1bbccfb162ef))
-    (instances
-      (project "SoundLab16StepSequencer"
-        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
-          (reference "C72") (unit 1)
-        )
-      )
-      (project "SynthProj"
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/00000000-0000-0000-0000-0000659a4e2e"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/0e948a88-c071-4754-aa3e-af223f738530"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/891afddb-f75e-4ea6-80b3-8ff315aac97b"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
-          (reference "C185") (unit 1)
         )
       )
     )
@@ -3082,45 +3008,6 @@
     )
   )
 
-  (symbol (lib_id "power:-12V") (at 146.05 186.69 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ebe2e821-b107-4630-a3de-94b8b1b8fa4c)
-    (property "Reference" "#PWR0177" (at 146.05 189.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-12V" (at 145.669 191.0842 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 146.05 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 146.05 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1d1ce776-93d5-43f2-b61f-cbb22b4f18f4))
-    (instances
-      (project "SoundLab16StepSequencer"
-        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
-          (reference "#PWR0177") (unit 1)
-        )
-      )
-      (project "SynthProj"
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/00000000-0000-0000-0000-0000659a4e2e"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/0e948a88-c071-4754-aa3e-af223f738530"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/891afddb-f75e-4ea6-80b3-8ff315aac97b"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
-          (reference "#PWR0414") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_US") (at 161.29 78.105 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid edb9c27e-2d51-464b-9b0f-b8cc14982a41)
@@ -3204,45 +3091,6 @@
     )
   )
 
-  (symbol (lib_id "power:GNDREF") (at 142.24 179.07 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f6fbd95d-e214-46fa-a91f-25628d4ea18a)
-    (property "Reference" "#PWR0175" (at 135.89 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDREF" (at 137.8458 179.197 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 142.24 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 142.24 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 66558d73-0e8a-4cf2-930f-86739b655977))
-    (instances
-      (project "SoundLab16StepSequencer"
-        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
-          (reference "#PWR0175") (unit 1)
-        )
-      )
-      (project "SynthProj"
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/00000000-0000-0000-0000-0000659a4e2e"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/0e948a88-c071-4754-aa3e-af223f738530"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/891afddb-f75e-4ea6-80b3-8ff315aac97b"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
-          (reference "#PWR0412") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GNDREF") (at 157.48 78.105 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f96d1a10-c6b7-40b9-b1ed-a5e1b7bf83b8)
@@ -3277,46 +3125,6 @@
         )
         (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
           (reference "#PWR0416") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 152.4 175.26 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f97d602d-2c02-4acb-a907-4288030aaee7)
-    (property "Reference" "C71" (at 158.75 175.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "470nF" (at 156.4894 175.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 151.4348 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 152.4 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 2a8952b4-c920-4dfc-905c-2b59f58d787a))
-    (pin "1" (uuid 109cdb11-260b-4a38-bed1-7994cf7a27b5))
-    (instances
-      (project "SoundLab16StepSequencer"
-        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b/ba12edcc-425a-4e43-95e4-b634dcdc7d8b"
-          (reference "C71") (unit 1)
-        )
-      )
-      (project "SynthProj"
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/00000000-0000-0000-0000-0000659a4e2e"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/0e948a88-c071-4754-aa3e-af223f738530"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/891afddb-f75e-4ea6-80b3-8ff315aac97b"
-          (reference "C?") (unit 1)
-        )
-        (path "/9021c97e-351f-4ed9-b393-50257df6a463/ec5d34db-41b8-43d0-b97a-f96177babae9"
-          (reference "C184") (unit 1)
         )
       )
     )
