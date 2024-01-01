@@ -1287,6 +1287,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 229.87 143.51 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 51f5dfaf-8d75-4690-bf9f-70eb9679e44d)
+    (property "Reference" "H5" (at 232.41 142.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 232.41 144.78 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad" (at 229.87 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 229.87 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "SoundLab16StepSequencer"
+        (path "/0a1377c9-61ff-44bc-b9df-99baf54c0c4b"
+          (reference "H5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 229.87 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53f5166d-c0b2-4231-97aa-661a88314da3)
